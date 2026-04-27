@@ -461,7 +461,6 @@ namespace Attendance
                
                     OperLog(sBuffer);
 
-
                 }
                 //table=BIODATA
                 if (sBuffer.IndexOfEx("Stamp", 1) > 0
