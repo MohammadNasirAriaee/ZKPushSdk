@@ -10,15 +10,18 @@ public sealed class Worker : BackgroundService
     private readonly ILogger<Worker> _logger;
     private readonly DeviceGatewayOptions _options;
     private readonly IHrAttendancePlatformService _platformService;
+    private readonly DevicePushListenerService _listenerService;
 
     public Worker(
         ILogger<Worker> logger,
         IOptions<DeviceGatewayOptions> options,
-        IHrAttendancePlatformService platformService)
+        IHrAttendancePlatformService platformService,
+        DevicePushListenerService listenerService)
     {
         _logger = logger;
         _options = options.Value;
         _platformService = platformService;
+        _listenerService = listenerService;
     }
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -26,18 +29,27 @@ public sealed class Worker : BackgroundService
         var dashboard = _platformService.GetDashboardSummary();
 
         _logger.LogInformation(
-            "Device gateway ready on {Host}:{Port} using {Protocol}. Employees seeded: {EmployeeCount}. Active devices seeded: {ActiveDevices}. Vendor listener source: {ListenerSource}",
+            "Device gateway starting on {Host}:{Port} using {Protocol}. Employees seeded: {EmployeeCount}. Active devices seeded: {ActiveDevices}.",
             _options.ListenHost,
             _options.ListenPort,
             _options.Protocol,
             dashboard.TotalEmployees,
-            dashboard.ActiveDevices,
-            _options.VendorListenerSource);
+            dashboard.ActiveDevices);
 
-        while (!stoppingToken.IsCancellationRequested)
+        var prefix = $"http://{_options.ListenHost}:{_options.ListenPort}/";
+
+        try
         {
-            _logger.LogInformation("Gateway heartbeat at {UtcNow}", DateTimeOffset.UtcNow);
-            await Task.Delay(TimeSpan.FromMinutes(5), stoppingToken);
+            await _listenerService.StartAsync(prefix, stoppingToken);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Device listener error");
+            throw;
+        }
+        finally
+        {
+            _listenerService.Dispose();
         }
     }
 }

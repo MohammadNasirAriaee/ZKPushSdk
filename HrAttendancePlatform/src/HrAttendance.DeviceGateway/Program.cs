@@ -7,6 +7,9 @@ using Microsoft.Extensions.Hosting;
 var builder = Host.CreateApplicationBuilder(args);
 builder.Services.Configure<DeviceGatewayOptions>(builder.Configuration.GetSection(DeviceGatewayOptions.SectionName));
 builder.Services.AddSingleton<IHrAttendancePlatformService, InMemoryHrAttendancePlatformService>();
+builder.Services.AddSingleton<IDeviceManagementService, InMemoryDeviceManagementService>();
+builder.Services.AddSingleton<IAttendancePushService, InMemoryAttendancePushService>();
+builder.Services.AddSingleton<DevicePushListenerService>();
 builder.Services.AddHostedService<Worker>();
 
 var host = builder.Build();
