@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "+zG3+Y9sEXk=",
+  "success": false,
+  "projectFilePath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\tests\\HrAttendance.Api.Tests\\HrAttendance.Api.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AHSP\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.26\\microsoft.netcore.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\AHSP\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.26\\microsoft.windowsdesktop.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\AHSP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.26\\microsoft.aspnetcore.app.ref.8.0.26.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.Swagger' from remote source 'https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swagger/index.json'.\r\n  The SSL connection could not be established, see inner exception.\r\n  Received an unexpected EOF or 0 bytes from the transport stream.",
+      "projectPath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\tests\\HrAttendance.Api.Tests\\HrAttendance.Api.Tests.csproj",
+      "filePath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\tests\\HrAttendance.Api.Tests\\HrAttendance.Api.Tests.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerGen' from remote source 'https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggergen/index.json'.\r\n  The SSL connection could not be established, see inner exception.\r\n  Received an unexpected EOF or 0 bytes from the transport stream.",
+      "projectPath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\tests\\HrAttendance.Api.Tests\\HrAttendance.Api.Tests.csproj",
+      "filePath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\tests\\HrAttendance.Api.Tests\\HrAttendance.Api.Tests.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Swashbuckle.AspNetCore.SwaggerUI' from remote source 'https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggerui/index.json'.\r\n  The SSL connection could not be established, see inner exception.\r\n  Received an unexpected EOF or 0 bytes from the transport stream.",
+      "projectPath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\tests\\HrAttendance.Api.Tests\\HrAttendance.Api.Tests.csproj",
+      "filePath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\tests\\HrAttendance.Api.Tests\\HrAttendance.Api.Tests.csproj",
+      "targetGraphs": []
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.Extensions.ApiDescription.Server' from remote source 'https://api.nuget.org/v3-flatcontainer/microsoft.extensions.apidescription.server/index.json'.\r\n  The SSL connection could not be established, see inner exception.\r\n  Received an unexpected EOF or 0 bytes from the transport stream.",
+      "projectPath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\tests\\HrAttendance.Api.Tests\\HrAttendance.Api.Tests.csproj",
+      "filePath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\tests\\HrAttendance.Api.Tests\\HrAttendance.Api.Tests.csproj",
+      "targetGraphs": []
+    }
+  ]
+}

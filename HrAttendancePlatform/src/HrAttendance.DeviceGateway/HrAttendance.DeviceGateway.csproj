@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Exe</OutputType>
+    <UserSecretsId>dotnet-HrAttendance.DeviceGateway-6cb29e7e-fc5e-47d8-b132-5679b687f3aa</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HrAttendance.Application\HrAttendance.Application.csproj" />
+    <ProjectReference Include="..\HrAttendance.Infrastructure\HrAttendance.Infrastructure.csproj" />
+    <ProjectReference Include="..\HrAttendance.Contracts\HrAttendance.Contracts.csproj" />
+  </ItemGroup>
+</Project>

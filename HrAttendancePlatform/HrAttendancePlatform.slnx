@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/HrAttendance.Api/HrAttendance.Api.csproj" />
+    <Project Path="src/HrAttendance.Application/HrAttendance.Application.csproj" />
+    <Project Path="src/HrAttendance.Contracts/HrAttendance.Contracts.csproj" />
+    <Project Path="src/HrAttendance.DeviceGateway/HrAttendance.DeviceGateway.csproj" />
+    <Project Path="src/HrAttendance.Domain/HrAttendance.Domain.csproj" />
+    <Project Path="src/HrAttendance.Infrastructure/HrAttendance.Infrastructure.csproj" />
+  </Folder>
+</Solution>
