@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Domain\\HrAttendance.Domain.csproj": {}
+    "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Domain\\HrAttendance.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Domain\\HrAttendance.Domain.csproj": {
+    "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Domain\\HrAttendance.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Domain\\HrAttendance.Domain.csproj",
+        "projectUniqueName": "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Domain\\HrAttendance.Domain.csproj",
         "projectName": "HrAttendance.Domain",
-        "projectPath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Domain\\HrAttendance.Domain.csproj",
+        "projectPath": "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Domain\\HrAttendance.Domain.csproj",
         "packagesPath": "C:\\Users\\AHSP\\.nuget\\packages\\",
-        "outputPath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Domain\\obj\\",
+        "outputPath": "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AHSP\\AppData\\Roaming\\NuGet\\NuGet.Config",

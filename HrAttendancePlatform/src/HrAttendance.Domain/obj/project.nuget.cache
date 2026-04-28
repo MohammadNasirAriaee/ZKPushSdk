@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5azXQ3OSp14=",
+  "dgSpecHash": "xVnW0CWN5hM=",
   "success": true,
-  "projectFilePath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Domain\\HrAttendance.Domain.csproj",
+  "projectFilePath": "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Domain\\HrAttendance.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AHSP\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.26\\microsoft.netcore.app.ref.8.0.26.nupkg.sha512",
     "C:\\Users\\AHSP\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.26\\microsoft.windowsdesktop.app.ref.8.0.26.nupkg.sha512",
