@@ -5,6 +5,7 @@ import Dashboard from './components/Dashboard.vue'
 import Devices from './components/Devices.vue'
 import Users from './components/Users.vue'
 import Attendance from './components/Attendance.vue'
+import './index.css'
 
 const routes = [
   { path: '/', component: Dashboard },
