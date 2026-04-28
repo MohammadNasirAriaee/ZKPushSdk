@@ -1,19 +1,31 @@
 <template>
-  <div>
-    <nav style="padding:12px;border-bottom:1px solid #ddd">
-      <a href="/">Dashboard</a> | <a href="/devices">Devices</a> | <a href="/users">Users</a> | <a href="/attendance">Attendance</a>
-    </nav>
-    <main style="padding:16px">
-      <router-view />
-    </main>
+  <div class="min-h-screen bg-slate-50 text-slate-800">
+    <header class="bg-white shadow">
+      <Header />
+    </header>
+
+    <div class="flex">
+      <aside class="hidden md:block w-64 bg-white border-r">
+        <Sidebar />
+      </aside>
+
+      <main class="flex-1 p-6 app-container">
+        <router-view />
+      </main>
+    </div>
   </div>
 </template>
 
 <script>
-export default { name: 'App' }
+import Header from './components/Header.vue'
+import Sidebar from './components/Sidebar.vue'
+
+export default {
+  name: 'App',
+  components: { Header, Sidebar }
+}
 </script>
 
 <style>
-body { font-family: Arial, Helvetica, sans-serif }
-a { margin: 0 8px }
+/* Intentionally minimal; styling driven by Tailwind */
 </style>

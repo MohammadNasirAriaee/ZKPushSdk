@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App-specific base tokens */
+:root {
+  --brand: #0ea5a4; /* teal-500 */
+}
+
+/* Small helpers for consistent container */
+.app-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Focus states and accessible outlines */
+.focus-ring:focus {
+  @apply outline-none ring-2 ring-offset-2 ring-sky-300;
+}
