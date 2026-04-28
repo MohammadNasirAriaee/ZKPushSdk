@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\HrAttendance.Contracts.csproj": {}
+    "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\HrAttendance.Contracts.csproj": {}
   },
   "projects": {
-    "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\HrAttendance.Contracts.csproj": {
+    "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\HrAttendance.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\HrAttendance.Contracts.csproj",
+        "projectUniqueName": "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\HrAttendance.Contracts.csproj",
         "projectName": "HrAttendance.Contracts",
-        "projectPath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\HrAttendance.Contracts.csproj",
+        "projectPath": "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\HrAttendance.Contracts.csproj",
         "packagesPath": "C:\\Users\\AHSP\\.nuget\\packages\\",
-        "outputPath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\obj\\",
+        "outputPath": "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AHSP\\AppData\\Roaming\\NuGet\\NuGet.Config",

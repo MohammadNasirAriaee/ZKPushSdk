@@ -87,11 +87,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Api\\HrAttendance.Api.csproj",
+      "projectUniqueName": "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Api\\HrAttendance.Api.csproj",
       "projectName": "HrAttendance.Api",
-      "projectPath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Api\\HrAttendance.Api.csproj",
+      "projectPath": "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Api\\HrAttendance.Api.csproj",
       "packagesPath": "C:\\Users\\AHSP\\.nuget\\packages\\",
-      "outputPath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Api\\obj\\",
+      "outputPath": "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\AHSP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -108,14 +108,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Application\\HrAttendance.Application.csproj": {
-              "projectPath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Application\\HrAttendance.Application.csproj"
+            "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Application\\HrAttendance.Application.csproj": {
+              "projectPath": "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Application\\HrAttendance.Application.csproj"
             },
-            "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\HrAttendance.Contracts.csproj": {
-              "projectPath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\HrAttendance.Contracts.csproj"
+            "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\HrAttendance.Contracts.csproj": {
+              "projectPath": "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Contracts\\HrAttendance.Contracts.csproj"
             },
-            "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Infrastructure\\HrAttendance.Infrastructure.csproj": {
-              "projectPath": "D:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Infrastructure\\HrAttendance.Infrastructure.csproj"
+            "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Infrastructure\\HrAttendance.Infrastructure.csproj": {
+              "projectPath": "d:\\Softwares\\Push Java SDK\\C# demo\\ZKAttendancePushDemo(20200702)\\ZKPushDemo\\HrAttendancePlatform\\src\\HrAttendance.Infrastructure\\HrAttendance.Infrastructure.csproj"
             }
           }
         }
